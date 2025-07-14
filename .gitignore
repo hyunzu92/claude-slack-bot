@@ -1,0 +1,17 @@
+# node_modules 폴더는 올리지 않는다
+node_modules/
+
+# 환경 변수 파일
+.env
+
+# 빌드 결과물
+dist/
+build/
+
+# IDE 설정 파일
+.vscode/
+.idea/
+.DS_Store
+
+# 로그파일
+*.log

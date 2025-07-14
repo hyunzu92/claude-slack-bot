@@ -1,0 +1,26 @@
+{
+  "name": "claude-slack-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/claude-csbot.ts",
+    "build": "tsc",
+    "start": "node dist/claude-csbot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.56.0",
+    "@slack/bolt": "^4.4.0",
+    "axios": "^1.10.0",
+    "dotenv": "^17.1.0",
+    "openai": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "description": ""
+}
